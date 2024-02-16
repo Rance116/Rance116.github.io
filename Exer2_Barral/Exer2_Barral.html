@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Barral's Web Page</title>
+	<style>
+		ul {
+		  list-style-type: none;
+		  margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: rebeccapurple;
+		}
+		li {
+		  float: left;
+		}
+		li a {
+		  display: block;
+		  color: lightpink;
+		  text-align: center;
+		  padding: 14px 16px;
+		  text-decoration: none;
+		}
+		li a:hover {
+		  background-color: indigo;
+		}
+		.logo{
+			style
+			width: 100px;
+			height: 100px;
+			float: left;
+		}
+
+		body {
+			background-color: lightslategrey;
+		}
+
+		#feat_pic {
+			display: flex;
+			border-style: hidden;
+			flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+		}
+		.Pic_Title {
+      border-style: hidden;
+      justify-content: center;
+    }
+		.picture {
+      height: 100px;
+      width: 100px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+    }
+    #prev_proj {
+			display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+		}
+		
+		#projects {
+			display: flex;
+			border-style: hidden;
+			flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+		}
+		.Proj {
+      height: 300px;
+      width: 300px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+    }
+		#skills_autobio {
+			display: flex;
+			border-style: hidden;
+			flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+		}
+		#skill_autobio_title {
+			width: 500px;
+		}
+		.title {
+			color: white;
+      font-family: "Gill Sans", sans-serif;
+    }
+		.Skills_n_Autobio_Box {
+			display: flex;
+			border-style: hidden;
+			flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+		}
+    .paragraph {
+    	padding: 20px;
+      width: 500px;
+      border-style: solid;
+      border-width: 2px;
+      border-color: black;
+			color: white;
+      font-family: "Gill Sans", sans-serif;      
+    }
+    .autobio {
+    	text-align: justify-all;
+    	text-indent: 50px;
+    }
+    footer {
+    	margin: 0;
+		  padding: 0;
+		  overflow: hidden;
+		  background-color: rebeccapurple;
+		  padding: 12px;
+		  text-align: left;
+		  color: white;
+		}
+		.link{
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<ul id="header">
+		<img class="logo" src = "logo.png" alt = "white rabbit in a purple robe"/>
+	  <li><a class="active" href="#feat_pic">Featured Photo</a></li>
+	  <li><a href="#prev_proj">Previous Project</a></li>
+	  <li><a href="#skills_autobio">Skills</a></li>
+	  <li><a href="#skills_autobio">Autobiography</a></li>
+	</ul>
+
+	<div id="feat_pic">
+		<h2 class="title">Feature Photo</h2>
+		<img class="picture" src = "Kurt.jpg" alt = "Kurt Rance Lenald V. Barral's picture"/>
+	</div>
+	<hr />
+
+  <h2 id="prev_proj" class="title">Previous Projects</h2>
+  <div id="projects">
+	  <img class="Proj" src = "CMSC12_HTML_act.jpg" alt = "HTML Activity in CMSC12"/>
+		<img class="Proj" src = "CMSC150_Proj.gif" alt = "Project in CMSC150: Data & Diet Solver"/>
+	  <img class="Proj" src = "CMSC22_Proj.gif" alt = "Project in CMSC22: Toilet Trouble"/>
+	</div>
+  <hr />
+
+  <div id="skills_autobio">
+    <h2 id="skill_autobio_title" class="title">Skills</h2>
+    <h2 id="skill_autobio_title" class="title">Autobiography</h2>
+	</div>
+	<div class="Skills_n_Autobio_Box">
+    <div class="paragraph"> - Resourceful<br> - Creative<br> - Cooperative<br>
+    </div>
+    <div class="paragraph">
+	    <div class="autobio">My name is Kurt Rance Lenald V. Barral, I was born on November 11, 2002, at Our Lady of Lourdes Hospital, Sta. Mesa, Manila. My parents are Leny V. Barra and Ronald P. Barral, and I have 2 siblings, my older brother is Ronald Matthew V. Barral and my younger brother is Ronald Kirt Ivan V. Barral.
+			</div>
+			<br>
+			<div class="autobio">I am a sophomore at the University of the Philippines, Los Baños, Laguna in the degree program BS. Computer Science. I completed my junior high school and senior high school at Ramon Magsaysay (Cubao) High School and elementary at Universal Evangelical Christian School.
+			</div>
+		</div>
+	</div>
+	<br>
+	<footer id="footer">
+  	<img class="logo" src = "logo.png" alt = "white rabbit in a purple robe"/>
+  	<div id="footer_info">
+  		<div>Barangay Matandang Balara, Quezon City<br>09618885941</div>
+  		<a class="link" href="#header">Back to top</a>
+  	</div>
+	</footer>
+
+</body>
+</html>
